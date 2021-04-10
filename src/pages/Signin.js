@@ -44,6 +44,7 @@ const Signin = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     handleSignUp();
+    const userNames = context.user;
   };
 
   if (context.user?.uid) {
